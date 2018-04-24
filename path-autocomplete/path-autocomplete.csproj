@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Demo\" />
+    <Folder Include="Src\" />
+    <Folder Include="Test\" />
+    <Folder Include="Src\Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Src\Features\EmptyCSSFile.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+    <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
+  </ItemGroup>
+</Project>
