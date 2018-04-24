@@ -9,6 +9,7 @@
     <Folder Include="Src\" />
     <Folder Include="Test\" />
     <Folder Include="Src\Features\" />
+    <Folder Include="Src\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Src\Features\EmptyCSSFile.css" />

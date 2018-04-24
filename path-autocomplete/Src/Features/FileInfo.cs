@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
-namespace pathautocomplete.Src.Features
+
+namespace pathautocomplete.Src.FileInfo
 {
     public class FileInfo
     {
