@@ -1,16 +1,19 @@
 ﻿using System;
-namespace pathautocomplete.Src.Interfaces
+using System.Collections.Generic;
+namespace PathAutoComplete.Src.Interfaces
 {
     public interface PathConfigurationValues
     {
-        bool withExtension;
-        string excludedItems: [{[key: string]: {when: string}}]
-        string pathMappings?: [{[key: string]: string}];
-             transformations?: [{string type,parameters?: Array<any>,when?: {string fileName}}];
-        bool triggerOutsideStrings;
-        bool enableFolderTrailingSlash;
-        string homeDirectory;
-        string workspaceFolderPath;
-        string workspaceRootPath;
+        bool withExtension { get; }
+        string excludedItems(string value);
+        string pathMappings(string value);
+
+        //one left
+             
+        bool triggerOutsideStrings { get; }
+        bool enableFolderTrailingSlash { get; }
+        string homeDirectory{ get;}
+        string workspaceFolderPath { get;}
+        string workspaceRootPath { get; }
     }
 }
