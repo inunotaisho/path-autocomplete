@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using Microsoft.VisualStudio.Workspace;
 using PathAutoComplete.Src.FileInfo;
 using PathAutoComplete.Src.Configuration;
 
 
-namespace pathautocomplete.Src.PathAutoCompleteProvider
+namespace PathAutoComplete.Src.PathAutoCompleteProvider
 {
     public class PathAutoCompleteProvider
     {
