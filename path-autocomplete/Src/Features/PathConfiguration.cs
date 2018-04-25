@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Workspace;
 using PathAutoComplete.Src.Interfaces;
 namespace PathAutoComplete.Src.Configuration
 {
@@ -15,8 +15,9 @@ namespace PathAutoComplete.Src.Configuration
 
         void update(string )
 
-        update(fileUri?: vs.Uri)
+        update(fileUri?: Workspace.Uri)
         {
+            var code = ProjectConfiguration();
             var codeConfiguration = vs.workspace.getConfiguration('path-autocomplete', fileUri || null);
 
             this.data.withExtension = codeConfiguration.get('extensionOnImport');
