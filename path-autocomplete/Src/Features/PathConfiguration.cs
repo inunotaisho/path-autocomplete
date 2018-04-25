@@ -1,17 +1,19 @@
 ﻿using System;
 using System.IO;
-using pathautocomplete.Src.Interfaces;
-namespace pathautocomplete.Src.Features
+using Microsoft.VisualStudio.Shell;
+using PathAutoComplete.Src.Interfaces;
+namespace PathAutoComplete.Src.Configuration
 {
     
     public class PathConfiguration
     {
-        
-        public PathConfiguration(PathConfigurationValues pathConfigurationValues)
+        private readonly PathConfigurationValues data;
+        public PathConfiguration()
         {
-            this.data = { };
+            this.data = null;
         }
 
+        void update(string )
 
         update(fileUri?: vs.Uri)
         {
