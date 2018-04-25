@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 
+//File Conversion is complete
+
 namespace PathAutoComplete.Src.FileInfo
 {
     public class FileInfo
