@@ -19,10 +19,19 @@
     <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
     <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="15.6.27413" />
     <PackageReference Include="Microsoft.VisualStudio.Workspace" Version="15.0.401" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI.Wpf" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Logic" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Data" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="15.6.27740" />
+    <PackageReference Include="Microsoft.VisualStudio.Language.Intellisense" Version="15.6.27740" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
       <Link>README.md</Link>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Link>LICENSE.txt</Link>
     </None>
   </ItemGroup>
 </Project>

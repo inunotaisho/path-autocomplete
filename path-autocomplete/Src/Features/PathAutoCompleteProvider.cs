@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using Microsoft.VisualStudio.Workspace;
+using Microsoft.VisualStudio.Language.Intellisense;
 using PathAutoComplete.Src.FileInfo;
 using PathAutoComplete.Src.Configuration;
 
