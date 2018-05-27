@@ -10,7 +10,6 @@ namespace PathAutoComplete.Src.FileInfo
         private string type;
         private string name;
         private string itemPath;
-        private const string loc = "";
 
         public FileInfo(string itemPath)
         {
